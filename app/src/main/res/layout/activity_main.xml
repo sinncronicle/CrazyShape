@@ -36,6 +36,5 @@
         app:layout_constraintVertical_chainStyle="spread"
         app:srcCompat="@drawable/cover" />
 
-    app:layout
 
 </androidx.constraintlayout.widget.ConstraintLayout>
