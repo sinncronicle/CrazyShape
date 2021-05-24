@@ -18,7 +18,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val shape = intArrayOf(R.drawable.circle, R.drawable.square, R.drawable.triangle, R.drawable.star)
 
+        val i:Int = (0..3).random()
+        imgNext.setImageResource(shape[i])
 
                 val img: ImageView = findViewById(R.id.imgTitle)
                 GlideApp.with(this)
